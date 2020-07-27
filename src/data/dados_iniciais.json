@@ -2,7 +2,6 @@
   "categorias": [
     {
       "titulo": "Fila de Piadas",
-      "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#26732B",
       "videos": [
         {
@@ -32,140 +31,132 @@
       ]
     },
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
+      "titulo": "Banca de Piadas",
+      "cor": "#26732B",
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Banca de Piadas 13 Violência",
+          "url": "https://www.youtube.com/watch?v=3JtM_flcGoM"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Banca de Piadas 12 Animal",
+          "url": "https://www.youtube.com/watch?v=Mv9n56iOSzc"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Banca de Piadas 11 Doença",
+          "url": "https://www.youtube.com/watch?v=dHnXszb1lVg"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Banca de Piadas 10 Transporte Publico",
+          "url": "https://www.youtube.com/watch?v=uXUM-HEWL60"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Banca de Piadas 9 Férias",
+          "url": "https://www.youtube.com/watch?v=CyENzTu20to"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
+      "titulo": "Thiago Ventura",
+      "cor": "#26732B",
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Especial Só agradece",
+          "url": "https://www.youtube.com/watch?v=X-5tCDJ_XDg"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Especial Isso é Tudo que eu tenho",
+          "url": "https://www.youtube.com/watch?v=Q3MRZKW2Llk"
+        },      
+        {
+          "titulo": "Thiago e os 300 espartas",
+          "url": "https://www.youtube.com/watch?v=75fK0iwhxdE"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Inveja",
+          "url": "https://www.youtube.com/watch?v=Q2LDobhGHm4"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Aconteceu",
+          "url": "https://www.youtube.com/watch?v=qTWExjrZHwE"
         }
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
+      "titulo": "Marcio Donato",
+      "cor": "#26732B",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Especial E olha que eu to sóbrio",
+          "url": "https://www.youtube.com/watch?v=4J8y2vz7bws"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Vizinhos",
+          "url": "https://www.youtube.com/watch?v=8iLsMGv1QcQ"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Doenças",
+          "url": "https://www.youtube.com/watch?v=At0eY6J-imM"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Academia",
+          "url": "https://www.youtube.com/watch?v=xOn-EYhL7Ok"
+        },
+        {
+          "titulo": "Pais",
+          "url": "https://www.youtube.com/watch?v=N818yW0TP0I"
         }
       ]
     },
     {
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
+      "titulo": "Afonso Padilha",
+      "cor": "#26732B",
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "O conquistador",
+          "url": "https://www.youtube.com/watch?v=FPs2RQ85Jms"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Tentando ser uma pessoa melhor",
+          "url": "https://www.youtube.com/watch?v=XMRAlOrmjNI"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "Você faz o que gosta ?",
+          "url": "https://www.youtube.com/watch?v=WdjUwA648Uo"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "Pior parte de ser pobre",
+          "url": "https://www.youtube.com/watch?v=DO5sJ-LLxcE"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "Teoria da conspiração",
+          "url": "https://www.youtube.com/watch?v=-Z4wCJRGAuk"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
+      "titulo": "Dihh Lopes",
+      "cor": "#26732B",
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Comediante, Casado e Pai",
+          "url": "https://www.youtube.com/watch?v=IMTwF3aTOnY"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "O Melhor Jeito de Morrer",
+          "url": "https://www.youtube.com/watch?v=C3OnyqiDZRs"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Como Se VIngar da Sua Mãe",
+          "url": "https://www.youtube.com/watch?v=0f3DyB1rfCI"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "40 Doenças",
+          "url": "https://www.youtube.com/watch?v=6epVO19fa18"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Meu Cachorro Me Mordeu",
+          "url": "https://www.youtube.com/watch?v=lqq7H6y3a0s"
         }
       ]
     }
