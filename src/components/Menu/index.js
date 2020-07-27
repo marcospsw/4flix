@@ -8,7 +8,7 @@ function Menu(){
     return(
         <nav className='Menu'>
             <a href="/">
-                <img className='Logo' src={Logo} alt="MSflix logo"/>
+                <img className='Logo' src={Logo} alt="4flix logo"/>
             </a>
 
             <Button as="a" className="ButtonLink" href="/">
