@@ -29,11 +29,17 @@
   
     background: var(--black);
     border-bottom: 2px solid var(--primary);
+
+    
   }
   body {
     --bodyPaddingTop: 94px;
     padding-top: var(--bodyPaddingTop);
   }
+  html{
+    scroll-behavior: smooth;
+  }
+
   @media (max-width: 800px) {
     .Menu {
       height: 60px;

@@ -5,7 +5,9 @@ import { FooterBase } from './styles';
 function Footer() {
   return (
     <FooterBase>
+      <a href="/">
       <img className='Logo' src={Logo} alt="4flix logo"/>
+      </a>
       <p>        
         Criado por
         {' '}
