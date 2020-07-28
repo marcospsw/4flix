@@ -30,18 +30,22 @@ function App() {
         category={dadosIniciais.categorias[1]}
       />
 
+      <div id="thiago" />
       <Carousel
         category={dadosIniciais.categorias[2]}
       />      
 
+      <div id="marcio" />
       <Carousel
         category={dadosIniciais.categorias[3]}
       />      
 
+      <div id="afonso" />
       <Carousel
         category={dadosIniciais.categorias[4]}
       />      
 
+      <div id="dihh" />
       <Carousel
         category={dadosIniciais.categorias[5]}
       />  

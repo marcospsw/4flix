@@ -52,21 +52,22 @@ ContentAreaContainer.Description = styled.p`
 `;
 
 ContentAreaContainer.Title = styled.h2`
-  font-style: normal;
-  font-weight: 300;
-  font-size: 40px;
+  font-style: italic;
+  font-weight: 400px;
+  font-size: 80px;
   line-height: 1;
-  margin-top: 0;
-  margin-bottom: 32px;
+  padding-left:80px;
 
   @media (max-width: 800px) {
+    padding-right: 70px;
     font-size: 32px;
     text-align: center;
+    padding-top: 50px;
   }
 `;
 
 export const BannerMainContainer = styled.section`
-  height: 80vh;
+  height: 100vh;
   position: relative;
   color: #fff;
   background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 

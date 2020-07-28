@@ -1,9 +1,13 @@
 .Logo {
+    padding-top: 10px;
     max-width: 168px;
+    filter: drop-shadow(1px 1px 1px var(--white));
   }
   @media (max-width: 800px) {
     .Logo {
-      max-width: 105px;
+      padding-top: 10px;
+      max-width: 110%;
+      filter: drop-shadow(1px 1px 1px var(--white));
     }
   }
   
@@ -32,7 +36,7 @@
   }
   @media (max-width: 800px) {
     .Menu {
-      height: 40px;
+      height: 60px;
       justify-content: center;
     }
     body {
@@ -40,8 +44,43 @@
       padding-top: var(--bodyPaddingTop);
     }
   }
+
+  .Navegador{
+    color: var(--white);
+    display: flex;
+    list-style-type: none;
+  }
+
+  .Navegador li a{
+    font-size: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    transition: .3;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .Navegador li a:hover{
+    color: var(--green4);
+  }
+
+  @media (max-width: 800px) {
+    .Navegador{
+      padding-left: 20px;
+    }
+
+    .Navegador li a{
+      font-size: 10px;
+      padding-left: 30px;
+      text-decoration: none;
+      transition: .5;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+  }
   
-  .ButtonLink {
+  /*.ButtonLink {
     color: var(--white);
     border: 1px solid var(--white);
     box-sizing: border-box;
@@ -73,4 +112,4 @@
       text-align: center;
       background: var(--green4);
     }
-  }
+  }*/
