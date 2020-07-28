@@ -15,9 +15,9 @@ import Button from '../Button'
 function Menu(){
     return(
         <nav className='Menu'>
-            <Link to="/">
+            <a className='ImgButton' href="/">
                 <img className='Logo' src={Logo} alt="4flix logo"/>
-            </Link>
+            </a>
             
             <Button as={Link}  to="/cadastro/video">
                 Novo vídeo

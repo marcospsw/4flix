@@ -1,0 +1,19 @@
+.div404{
+  text-align: center;
+}
+
+.erro404{
+  max-width: 60%;
+  margin-bottom: 30px;
+}
+
+.not-found{
+  width: 41%;
+}
+
+@media (max-width: 800px){
+  .div404{
+    margin-top: 50px;
+  }
+
+}

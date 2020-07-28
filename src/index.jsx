@@ -9,9 +9,7 @@ import {
 }from 'react-router-dom';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
-
-
-const Pagina404 = () => (<div>Pagina404</div>);
+import Pagina404 from './pages/404';
 
 
 ReactDOM.render(

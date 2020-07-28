@@ -6,8 +6,11 @@
   @media (max-width: 800px) {
     .Logo {
       padding-top: 10px;
-      max-width: 110%;
+      max-width: 55%;
       filter: drop-shadow(1px 1px 1px var(--white));
+    }
+    .ImgButton{
+      text-align: center;
     }
   }
   
@@ -42,7 +45,7 @@
 
   @media (max-width: 800px) {
     .Menu {
-      height: 60px;
+      height: 80px;
       justify-content: center;
     }
     body {
