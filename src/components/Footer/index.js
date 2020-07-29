@@ -14,8 +14,9 @@ function Footer() {
         <a href="https://github.com/marcospsw">
           Marcos Souza
         </a>
-        <p>Durante a Imersão Alura</p>
+        
       </p>
+      <p>Durante a Imersão Alura</p>
     </FooterBase>
   );
 }
