@@ -39,8 +39,9 @@ function CadastroCategoria() {
 
   useEffect(() => {
     console.log('pqp');
-    const URL = 'http://localhost:8080/categorias';
-
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://fourflix.herokuapp.com/categorias';
     fetch(URL)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
@@ -92,7 +93,7 @@ function CadastroCategoria() {
         </Link>
       </Button>
 
-      {categorias.length === 0 && (
+      {categorias.length === 6 && (
       <div>
         Loading....
       </div>
