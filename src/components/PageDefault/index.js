@@ -10,6 +10,7 @@ const Main = styled.main`
   padding-top: 50px;
   padding-right: 5%;
   padding-left: 5%;
+  text-align:center;
 `;
 
 function PageDefault({children}){
