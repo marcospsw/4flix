@@ -45,7 +45,7 @@ const Slider = ({ children }) => (
       dots: false,
       infinite: true,
       speed: 300,
-      centerMode: true,
+      centerMode: false,
       variableWidth: true,
       adaptiveHeight: true,
     }}
