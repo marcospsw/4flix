@@ -8,7 +8,7 @@ const Pagina404 = () => (
   <>
     <PageDefault>
       <div className="div404">
-        <img className="erro404" src={img404} alt="Erro 404"/>
+        <img className="erro404" src={img404} alt="Erro 404" />
         <img className="not-found" src={imgNotFound} alt="Not Found" />
       </div>
     </PageDefault>

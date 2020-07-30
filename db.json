@@ -1,0 +1,40 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Fila de Piadas",
+      "descricao": "Categoria Criada",
+      "cor": "#cdb1ff"
+    },
+    {
+      "id": 2,
+      "nome": "Banca de Piadas",
+      "descricao": "Categoria Criada",
+      "cor": "#cdb1ff"
+    },
+    {
+      "id": 3,
+      "nome": "Thiago Ventura",
+      "descricao": "Categoria Criada",
+      "cor": "#cdb1ff"
+    },
+    {
+      "id": 4,
+      "nome": "Afonso Padilha",
+      "descricao": "Categoria Criada",
+      "cor": "#cdb1ff"
+    },
+    {
+      "id": 5,
+      "nome": "Marcio Donato",
+      "descricao": "Categoria Criada",
+      "cor": "#cdb1ff"
+    },
+    {
+      "id": 6,
+      "nome": "Dihh Lopes",
+      "descricao": "Categoria Criada",
+      "cor": "#cdb1ff"
+    }
+  ]
+}
