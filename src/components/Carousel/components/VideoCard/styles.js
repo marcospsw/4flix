@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+// eslint-disable-next-line import/prefer-default-export
 export const VideoCardContainer = styled.a`
   border: 2px solid;
   border-radius: 4px;
@@ -18,12 +19,20 @@ export const VideoCardContainer = styled.a`
   display: flex;
   align-items: flex-end;
   padding: 16px;
-
   transition: opacity .3s;
+  transition: width .5s;
+
   &:hover,
   &:focus {
+    width: calc(298px + 6vw);
     border: 4px solid;
     opacity: .5;
+
+    & > span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
   
   &:not(:first-child) {

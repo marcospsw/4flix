@@ -1,12 +1,12 @@
 .Logo {
     padding-top: 10px;
-    max-width: 168px;
+    max-width: 55%;
     filter: drop-shadow(1px 1px 1px var(--white));
   }
   @media (max-width: 800px) {
     .Logo {
       padding-top: 10px;
-      max-width: 55%;
+      max-width: 50%;
       filter: drop-shadow(1px 1px 1px var(--white));
     }
     .ImgButton{

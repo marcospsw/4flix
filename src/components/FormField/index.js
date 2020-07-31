@@ -9,15 +9,16 @@ function FormField({
 
   return (
     <InputWrapper filled={!!value} type={type}>
-      <label
+      {/* <label
         htmlFor={fieldId}
       >
         {label}
-      </label>
+      </label> */}
       <input
         id={fieldId}
         type={type}
         value={value}
+        placeholder={label}
         name={name}
         onChange={onChange}
       />
@@ -26,6 +27,7 @@ function FormField({
         id={fieldId}
         value={value}
         name={name}
+        placeholder={label}
         onChange={onChange}
         rows="5"
       />

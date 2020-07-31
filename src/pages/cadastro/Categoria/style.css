@@ -1,0 +1,21 @@
+.lista {
+  text-align: center;
+  list-style: none;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.resultado{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.cor {
+  width: 50%;
+}
+
+.link{
+  text-decoration: none;
+}

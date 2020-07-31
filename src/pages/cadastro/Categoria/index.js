@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
-import Button from '../../../components/Button';
+import GenericButton from '../../../components/GenericButton';
+import Loading from '../../../components/Loading';
+import './style.css';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -38,6 +40,7 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
+    // eslint-disable-next-line no-console
     console.log('pqp');
     const URL = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
@@ -55,7 +58,6 @@ function CadastroCategoria() {
     <PageDefault>
 
       <h1>Cadastro de Categoria</h1>
-      {values.nome}
 
       <form onSubmit={handleSubmit}>
         <FormField
@@ -81,25 +83,29 @@ function CadastroCategoria() {
           value={values.cor}
           onChange={handleChange}
         />
-        <Button>
+
+        <div className="resultado">
+          {'Resultado: '}
+          {values.nome}
+        </div>
+
+        <GenericButton>
           Cadastro
-        </Button>
+        </GenericButton>
+
+        <GenericButton>
+          <Link className="link" to="/">
+            Cancelar
+          </Link>
+        </GenericButton>
 
       </form>
 
-      <Button>
-        <Link to="/">
-          Cancelar
-        </Link>
-      </Button>
-
       {categorias.length === 6 && (
-      <div>
-        Loading....
-      </div>
+        <Loading> </Loading>
       )}
 
-      <ul>
+      <ul className="lista">
         {categorias.map((categoria) => (
           // eslint-disable-next-line react/no-array-index-key
           <li key={`${categoria.nome}`}>
@@ -107,6 +113,7 @@ function CadastroCategoria() {
           </li>
         ))}
       </ul>
+
     </PageDefault>
   );
 }

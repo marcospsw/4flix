@@ -26,7 +26,7 @@ function Carousel({
             )}
         </>
       )}
-      <Slider>
+      <Slider cor={categoryColor || 'red'}>
         {videos.map((video, index) => {
           if (ignoreFirstVideo && index === 0) {
             return null;

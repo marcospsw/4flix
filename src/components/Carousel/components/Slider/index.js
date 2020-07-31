@@ -17,15 +17,19 @@ const Container = styled.ul`
     transform: initial;
     &:before {
       font-size: 30px;
+      color: ${({ cor }) => `${cor}`};
+      opacity: 1;
     }
   }
   
+  
   .slick-prev {
-    left: 0;
+    left: 20px;
   }
   .slick-next {
-    right: 50px;
+    right: 20px;
   }
+  
 `;
 
 export const SliderItem = styled.li`
@@ -38,8 +42,8 @@ export const SliderItem = styled.li`
   }
 `;
 
-const Slider = ({ children }) => (
-  <Container>
+const Slider = ({ children, cor }) => (
+  <Container cor={cor}>
     <SlickSlider {...{
       dots: false,
       infinite: true,
