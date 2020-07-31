@@ -43,8 +43,8 @@ function CadastroCategoria() {
     // eslint-disable-next-line no-console
     console.log('pqp');
     const URL = window.location.hostname.includes('localhost')
-      ? 'http://localhost:8080/categorias'
-      : 'https://fourflix.herokuapp.com/categorias';
+      ? 'https://fourflix.herokuapp.com/categorias'
+      : 'http://localhost:8080/categorias';
     fetch(URL)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
