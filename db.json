@@ -2,39 +2,239 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "Fila de Piadas",
-      "descricao": "Categoria Criada",
-      "cor": "#cdb1ff"
+      "titulo": "Fila de Piadas",
+      "cor": "#26732B"
     },
     {
       "id": 2,
-      "nome": "Banca de Piadas",
-      "descricao": "Categoria Criada",
-      "cor": "#cdb1ff"
+      "titulo": "Banca de Piadas",
+      "cor": "#356cb4"
     },
     {
       "id": 3,
-      "nome": "Thiago Ventura",
-      "descricao": "Categoria Criada",
-      "cor": "#cdb1ff"
+      "titulo": "Thiago Ventura",
+      "cor": "#26732B"
     },
     {
       "id": 4,
-      "nome": "Afonso Padilha",
-      "descricao": "Categoria Criada",
-      "cor": "#cdb1ff"
+      "titulo": "Afonso Padilha",
+      "cor": "#356cb4"
     },
     {
       "id": 5,
-      "nome": "Marcio Donato",
-      "descricao": "Categoria Criada",
-      "cor": "#cdb1ff"
+      "titulo": "Marcio Donato",
+      "cor": "#26732B"
     },
     {
       "id": 6,
-      "nome": "Dihh Lopes",
-      "descricao": "Categoria Criada",
-      "cor": "#cdb1ff"
+      "titulo": "Dihh Lopes",
+      "cor": "#356cb4"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Live 4 Amigos",
+      "url": "https://www.youtube.com/watch?v=Zfx09xm4oxs"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Fila de Piadas 150 Despedida",
+      "url": "https://www.youtube.com/watch?v=HvIxk17_35Q"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Fila de Piadas 149 Coisas da Vida",
+      "url": "https://www.youtube.com/watch?v=_9flNP8HQvo"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Fila de Piadas 148 Histórias",
+      "url": "https://www.youtube.com/watch?v=1dpr5JtVSZk"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Fila de Piadas 147 Sou Contra",
+      "url": "https://www.youtube.com/watch?v=13XnHpHNFO8"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Fila de Piadas 146 Amizade",
+      "url": "https://www.youtube.com/watch?v=hJtUvo30Jww"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Fila de Piadas 145 Família",
+      "url": "https://www.youtube.com/watch?v=yAFiQCdfeBg"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Fila de Piadas 144 Ofensa",
+      "url": "https://www.youtube.com/watch?v=LKVFCac5pnQ"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Banca de Piadas 13 Violência",
+      "url": "https://www.youtube.com/watch?v=3JtM_flcGoM"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Banca de Piadas 12 Animal",
+      "url": "https://www.youtube.com/watch?v=Mv9n56iOSzc"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Banca de Piadas 11 Doença",
+      "url": "https://www.youtube.com/watch?v=dHnXszb1lVg"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Banca de Piadas 10 Transporte Publico",
+      "url": "https://www.youtube.com/watch?v=uXUM-HEWL60"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Banca de Piadas 9 Férias",
+      "url": "https://www.youtube.com/watch?v=CyENzTu20to"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Especial Só agradece",
+      "url": "https://www.youtube.com/watch?v=X-5tCDJ_XDg"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Especial Isso é Tudo que eu tenho",
+      "url": "https://www.youtube.com/watch?v=Q3MRZKW2Llk"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Thiago e os 300 espartas",
+      "url": "https://www.youtube.com/watch?v=75fK0iwhxdE"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Inveja",
+      "url": "https://www.youtube.com/watch?v=Q2LDobhGHm4"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "Aconteceu",
+      "url": "https://www.youtube.com/watch?v=qTWExjrZHwE"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Especial E olha que eu to sóbrio",
+      "url": "https://www.youtube.com/watch?v=4J8y2vz7bws"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Vizinhos",
+      "url": "https://www.youtube.com/watch?v=8iLsMGv1QcQ"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Doenças",
+      "url": "https://www.youtube.com/watch?v=At0eY6J-imM"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Academia",
+      "url": "https://www.youtube.com/watch?v=xOn-EYhL7Ok"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "Pais",
+      "url": "https://www.youtube.com/watch?v=N818yW0TP0I"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "O conquistador",
+      "url": "https://www.youtube.com/watch?v=FPs2RQ85Jms"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Tentando ser uma pessoa melhor",
+      "url": "https://www.youtube.com/watch?v=XMRAlOrmjNI"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "Você faz o que gosta ?",
+      "url": "https://www.youtube.com/watch?v=WdjUwA648Uo"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "Pior parte de ser pobre",
+      "url": "https://www.youtube.com/watch?v=DO5sJ-LLxcE"
+    },
+    {
+      "id": 28,
+      "categoriaId": 5,
+      "titulo": "Teoria da conspiração",
+      "url": "https://www.youtube.com/watch?v=-Z4wCJRGAuk"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "Comediante, Casado e Pai",
+      "url": "https://www.youtube.com/watch?v=IMTwF3aTOnY"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "O Melhor Jeito de Morrer",
+      "url": "https://www.youtube.com/watch?v=C3OnyqiDZRs"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "Como Se VIngar da Sua Mãe",
+      "url": "https://www.youtube.com/watch?v=0f3DyB1rfCI"
+    },
+    {
+      "id": 32,
+      "categoriaId": 6,
+      "titulo": "40 Doenças",
+      "url": "https://www.youtube.com/watch?v=6epVO19fa18"
+    },
+    {
+      "id": 33,
+      "categoriaId": 6,
+      "titulo": "Meu Cachorro Me Mordeu",
+      "url": "https://www.youtube.com/watch?v=lqq7H6y3a0s"
+    },
+    {
+      "titulo": "Video Padrao",
+      "url": "https://www.youtube.com/watch?v=BtCt8K4O8kg",
+      "categoriaId": 1,
+      "id": 34
     }
   ]
 }

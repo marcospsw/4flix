@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import Menu from '../Menu';
 import Footer from '../Footer';
 
@@ -11,13 +11,17 @@ const Main = styled.main`
   padding-right: 5%;
   padding-left: 5%;
   text-align:center;
+  ${({ paddingAll }) => css`
+    padding: ${paddingAll};
+  `}
 `;
 
-function PageDefault({ children }) {
+// eslint-disable-next-line react/prop-types
+function PageDefault({ children, paddingAll }) {
   return (
     <>
       <Menu />
-      <Main>
+      <Main paddingAll={paddingAll}>
         {children}
       </Main>
       <Footer />
