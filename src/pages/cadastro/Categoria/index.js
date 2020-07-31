@@ -29,11 +29,9 @@ function CadastroCategoria() {
 
   useEffect(() => {
     // eslint-disable-next-line no-console
-    const URL = 
-    
-      window.location.hostname.includes('localhost')
+    const URL = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
-      : 'http:/fourflix.herokuapp.com/categorias';
+      : 'https://fourflix.herokuapp.com/categorias';
 
     fetch(URL)
       .then(async (respostaDoServidor) => {
