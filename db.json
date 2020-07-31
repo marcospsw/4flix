@@ -229,12 +229,6 @@
       "categoriaId": 6,
       "titulo": "Meu Cachorro Me Mordeu",
       "url": "https://www.youtube.com/watch?v=lqq7H6y3a0s"
-    },
-    {
-      "titulo": "Video Padrao",
-      "url": "https://www.youtube.com/watch?v=BtCt8K4O8kg",
-      "categoriaId": 1,
-      "id": 34
     }
   ]
 }

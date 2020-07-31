@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Title = styled.h3`
   font-style: italic;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 50px;
   line-height: 1;
   margin-bottom: 25px;
   display: inline-block;
@@ -11,10 +11,10 @@ export const Title = styled.h3`
   background: red;
   line-height: 1;
   border-radius: 15px;
-  margin-left: 50px;
+
 
   @media (max-width: 800px) {
-    font-size: 18px;
+    font-size: 25px;
     padding: 10px;
   }
 `;
