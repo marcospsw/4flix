@@ -3,7 +3,7 @@ import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import useForm from '../../../hooks/useForm';
-import Button from '../../../components/Button';
+import GenericButton from '../../../components/Button';
 import videosRepository from '../../../repositories/videos';
 
 function CadastroVideo() {
@@ -60,9 +60,9 @@ function CadastroVideo() {
           onChange={handleChange}
         />
 
-        <Button type="submit">
+        <GenericButton type="submit">
           Cadastrar
-        </Button>
+        </GenericButton>
       </form>
 
       <Link to="/cadastro/categoria">
