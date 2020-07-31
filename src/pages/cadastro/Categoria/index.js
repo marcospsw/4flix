@@ -29,7 +29,7 @@ function CadastroCategoria() {
 
   useEffect(() => {
     // eslint-disable-next-line no-console
-    const URL = 'https:/fourflix.herokuapp.com/categorias';
+    const URL = 'http://localhost:8080/categorias';
     
       // window.location.hostname.includes('localhost')
       // ? 'http://localhost:8080/categorias'
