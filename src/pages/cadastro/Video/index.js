@@ -12,9 +12,9 @@ function CadastroVideo() {
   const [categorias, setCategorias] = useState([]);
   const categoryTitles = categorias.map(({titulo}) => titulo);
   const valoresInicias = {
-    titulo: 'Video Padrao',
-    url: 'https://www.youtube.com/watch?v=BtCt8K4O8kg',
-    categoria: 'Fila de Piadas',
+    titulo: '',
+    url: '',
+    categoria: '',
   };
   const { handleChange, values } = useForm(valoresInicias);
 
@@ -77,12 +77,19 @@ function CadastroVideo() {
           Cadastrar
         </GenericButton>
 
+        <GenericButton>
+          <Link style={{ textDecoration: 'none' }} to="/">
+            Cancelar
+          </Link>
+        </GenericButton>
       </form>
       <GenericButton>
-        <Link to="/cadastro/categoria">
-          Cadastrar categoria
+        <Link style={{ textDecoration: 'none' }} to="/cadastro/categoria">
+          Cadastrar Categoria
         </Link>
       </GenericButton>
+
+      
 
     </PageDefault>
   );

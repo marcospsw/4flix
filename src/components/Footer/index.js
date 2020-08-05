@@ -11,11 +11,15 @@ function Footer() {
       <p>
         Criado por
         {' '}
-        <a href="https://github.com/marcospsw">
-          Marcos Souza
+        <a style={{textDecoration: 'none', fontSize: '20px'}} href="https://github.com/marcospsw">
+          Marcos Wergles
         </a>
         {' '}
-        Durante a Imersão Alura
+        Durante a
+        {' '}
+        <a style={{textDecoration: 'none', fontSize: '20px'}} href="https://www.alura.com.br/imersao-react/">
+          Imersão Alura
+        </a>         
       </p>
     </FooterBase>
   );
