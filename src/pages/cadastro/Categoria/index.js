@@ -77,7 +77,7 @@ function CadastroCategoria() {
           {values.nome}
         </div>
 
-        <GenericButton>
+        <GenericButton type="submit">
           Cadastro
         </GenericButton>
 
